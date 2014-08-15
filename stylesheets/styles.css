@@ -1,8 +1,3 @@
-/* line 3, ../sass/styles.scss */
-p {
-  color: red;
-}
-
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -1544,7 +1539,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777777;
+  color: black;
 }
 
 /* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_type.scss */
@@ -8038,7 +8033,12 @@ button.close {
     display: none !important;
   }
 }
-/* line 15, ../sass/styles.scss */
+/* line 11, ../sass/styles.scss */
 h1 {
-  color: blue;
+  font-family: 'Almendra SC', serif;
+}
+
+/* line 15, ../sass/styles.scss */
+small {
+  font-family: 'Fanwood text', serif;
 }

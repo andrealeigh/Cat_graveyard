@@ -1,8 +1,5 @@
-$paragraphColor: red;
 
-p {
-  color: $paragraphColor;
-}
+$headings-small-color: black;
 
 
 @import "bootstrap-compass";
@@ -10,8 +7,12 @@ p {
 @import "bootstrap";
 
 
-$color: blue;
 
 h1 {
-  color: $color;
+  font-family: 'Almendra SC', serif;
+}
+
+small {
+  font-family: 'Fanwood text', serif;
+
 }
