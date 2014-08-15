@@ -8033,12 +8033,22 @@ button.close {
     display: none !important;
   }
 }
-/* line 11, ../sass/styles.scss */
+/* line 8, ../sass/styles.scss */
 h1 {
   font-family: 'Almendra SC', serif;
 }
 
-/* line 15, ../sass/styles.scss */
+/* line 12, ../sass/styles.scss */
+h1:first-child {
+  margin-top: 200px;
+}
+
+/* line 16, ../sass/styles.scss */
+h1:last-child {
+  margin-bottom: 200px;
+}
+
+/* line 20, ../sass/styles.scss */
 small {
   font-family: 'Fanwood text', serif;
 }
