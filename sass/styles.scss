@@ -1,9 +1,13 @@
+// $font-size-base: 13px;
+
+$font-size-h1: 34px;
 
 $headings-small-color: black;
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";
+
 
 h1:first-child {
   margin-top: 200px;
