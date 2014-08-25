@@ -7,20 +7,11 @@ $headings-small-color: black;
 @import "bootstrap-variables";
 @import "bootstrap";
 
-h1:first-child {
-  margin-top: 200px;
-}
-
-h1:last-child {
-  margin-bottom: 200px;
-}
-
 h1 {
   font-family: 'Almendra SC', serif;
-}
-
-small {
-  font-family: 'Fanwood text', serif;
+  small {font-family: 'Fanwood text', serif;}
+  &:first-child {margin-top: 200px;}
+  &:last-child {margin-bottom: 200px;}
 }
 
 .center-block {
