@@ -36,7 +36,7 @@ small {
 }
 
 #linear-gradient1 {
-  @include gradient-directional (black, #00078E, 60deg);
+  @include gradient-directional (black, #00078E, 15deg);
 }
 
 .pull-left {
@@ -44,5 +44,8 @@ small {
 }
 
 #linear-gradient2 {
-  @include gradient-directional (black, #00078E, 120deg);
+  @include gradient-directional (#00078E, black, -15deg);
+}
+#linear-gradient3 {
+  @include gradient-directional (black, #00078E, -345deg);
 }
