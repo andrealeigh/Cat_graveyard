@@ -32,6 +32,7 @@ small {
 .container-fluid {
   img {
     margin-top: 200px;
+    &:last-child { margin-bottom: 200px; }
   }
 }
 
