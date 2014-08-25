@@ -31,6 +31,14 @@ small {
   margin-right: auto;
 }
 
+#linear-gradient1 {
+  @include gradient-directional (black, #00078E, 60deg);
+}
+
 .pull-left {
   float: left !important;
+}
+
+#linear-gradient2 {
+  @include gradient-directional (black, #00078E, 120deg);
 }
