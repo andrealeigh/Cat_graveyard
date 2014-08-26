@@ -38,6 +38,3 @@ h1 {
 #linear-gradient2 {
   @include gradient-directional (#00078E, black, -15deg);
 }
-#linear-gradient3 {
-  @include gradient-directional (black, #00078E, -345deg);
-}
