@@ -23,16 +23,14 @@ h1 {
 .container-fluid {
   img {
     margin-top: 200px;
-    &:last-child { margin-bottom: 200px; }
+    &:last-child {margin-bottom: 200px;}
+    .pull-left {float: left !important;}
+    .pull-right {float: right !important;}
   }
 }
 
 #linear-gradient1 {
   @include gradient-directional (black, #00078E, 15deg);
-}
-
-.pull-left {
-  float: left !important;
 }
 
 #linear-gradient2 {
