@@ -8050,24 +8050,24 @@ h1:last-child {
   margin-bottom: 200px;
 }
 
-/* line 24, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 .container-fluid img {
   margin-top: 200px;
 }
-/* line 26, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 .container-fluid img:last-child {
   margin-bottom: 200px;
 }
-/* line 27, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 .container-fluid img .pull-left {
   float: left !important;
 }
-/* line 28, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .container-fluid img .pull-right {
   float: right !important;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 #linear-gradient1 {
   background-repeat: repeat-x;
   background-image: -webkit-linear-gradient(15deg, black, #00078e);
@@ -8075,7 +8075,7 @@ h1:last-child {
   background-image: linear-gradient(15deg, #000000, #00078e);
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 #linear-gradient2 {
   background-repeat: repeat-x;
   background-image: -webkit-linear-gradient(-15deg, #00078e, black);
@@ -8083,7 +8083,15 @@ h1:last-child {
   background-image: linear-gradient(-15deg, #00078e, #000000);
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .monsters {
   margin: 100px auto 100px auto;
+}
+
+/* line 43, ../sass/styles.scss */
+.col-sm-4 p {
+  margin-bottom: 30px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
