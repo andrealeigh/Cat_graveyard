@@ -1425,12 +1425,12 @@ textarea {
 
 /* line 48, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #101010;
   text-decoration: none;
 }
 /* line 53, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: red;
   text-decoration: underline;
 }
 /* line 58, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -4232,7 +4232,7 @@ select[multiple].input-lg,
 
 /* line 85, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #101010;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4249,7 +4249,7 @@ select[multiple].input-lg,
 }
 /* line 105, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: red;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4944,7 +4944,7 @@ tbody.collapse.in {
 /* line 48, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #101010;
 }
 /* line 59, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5711,7 +5711,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
-  color: #428bca;
+  color: #101010;
   background-color: white;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5733,7 +5733,7 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #2a6496;
+  color: red;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -5969,7 +5969,7 @@ a.label:hover, a.label:focus {
 }
 /* line 40, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_badges.scss */
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #101010;
   background-color: white;
 }
 /* line 44, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_badges.scss */
@@ -6065,7 +6065,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #101010;
 }
 
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_alerts.scss */
@@ -8033,36 +8033,36 @@ button.close {
     display: none !important;
   }
 }
-/* line 10, ../sass/styles.scss */
+/* line 14, ../sass/styles.scss */
 h1 {
   font-family: 'Almendra SC', serif;
 }
-/* line 12, ../sass/styles.scss */
+/* line 16, ../sass/styles.scss */
 h1 small {
   font-family: 'Fanwood text', serif;
 }
-/* line 13, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 h1:first-child {
   margin-top: 200px;
 }
-/* line 14, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 h1:last-child {
   margin-bottom: 200px;
 }
 
-/* line 18, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .container-fluid img {
   margin-top: 200px;
 }
-/* line 20, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 .container-fluid img:last-child {
   margin-bottom: 200px;
 }
-/* line 21, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .container-fluid img .pull-left {
   float: left !important;
 }
-/* line 22, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 .container-fluid img .pull-right {
   float: right !important;
 }
