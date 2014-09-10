@@ -7,6 +7,10 @@ $link-color: #101010;
 
 $link-hover-color: #C1272D;
 
+$btn-default-color: white;
+$btn-default-bg: black;
+$btn-default-border: black;
+
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";
@@ -33,6 +37,24 @@ h1 {
 
 #linear-gradient2 {
   @include gradient-directional (#00078E, black, -15deg);
+}
+
+.modal-footer {
+  .btn-default {
+    font-family: 'Fanwood text', serif;
+    font-size: 20px !important;
+    border-radius: 0;
+    &:hover
+    // &:focus,
+    // &.focus,
+    // &:active,
+    // &.active
+    {
+      color: black;
+      background-color: white;
+      border-color: black;
+    }
+  }
 }
 
 .monsters {
