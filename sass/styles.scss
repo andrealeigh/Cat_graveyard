@@ -39,6 +39,17 @@ h1 {
   @include gradient-directional (#00078E, black, -15deg);
 }
 
+.modal {
+  top: 5%;
+  &.left {
+    left: 40%;
+  }
+
+}
+
+.modal-content {
+  border-radius: 0;
+}
 .modal-footer {
   .btn-default {
     font-family: 'Fanwood text', serif;

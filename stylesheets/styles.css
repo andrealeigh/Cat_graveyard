@@ -8083,8 +8083,21 @@ h1:last-child {
   background-image: linear-gradient(-15deg, #00078e, #000000);
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
+.modal {
+  top: 5%;
+}
+/* line 44, ../sass/styles.scss */
+.modal.left {
+  left: 40%;
+}
+
 /* line 50, ../sass/styles.scss */
+.modal-content {
+  border-radius: 0;
+}
+
+/* line 54, ../sass/styles.scss */
 .modal-footer .btn-default {
   font-family: 'Fanwood text', serif;
   font-size: 20px !important;
