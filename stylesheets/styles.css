@@ -8090,19 +8090,19 @@ h1:last-child {
   font-size: 20px !important;
   border-radius: 0;
 }
-/* line 59, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .modal-footer .btn-default:hover {
   color: black;
   background-color: white;
   border-color: black;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 .monsters {
   margin: 100px auto 100px auto;
 }
 
-/* line 72, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 .col-sm-4 p {
   margin-bottom: 30px;
   font-family: 'Alegreya Sans SC', sans-serif;

@@ -44,12 +44,7 @@ h1 {
     font-family: 'Fanwood text', serif;
     font-size: 20px !important;
     border-radius: 0;
-    &:hover
-    // &:focus,
-    // &.focus,
-    // &:active,
-    // &.active
-    {
+    &:hover {
       color: black;
       background-color: white;
       border-color: black;
