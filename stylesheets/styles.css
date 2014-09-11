@@ -8091,31 +8091,35 @@ h1:last-child {
 .modal.left {
   left: 40%;
 }
+/* line 47, ../sass/styles.scss */
+.modal.right {
+  right: 40%;
+}
 
-/* line 50, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .modal-content {
   border-radius: 0;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .modal-footer .btn-default {
   font-family: 'Fanwood text', serif;
   font-size: 20px !important;
   border-radius: 0;
 }
-/* line 58, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .modal-footer .btn-default:hover {
   color: black;
   background-color: white;
   border-color: black;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .monsters {
   margin: 100px auto 100px auto;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .col-sm-4 p {
   margin-bottom: 30px;
   font-family: 'Alegreya Sans SC', sans-serif;
