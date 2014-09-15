@@ -15,6 +15,17 @@ $btn-default-border: black;
 @import "bootstrap-variables";
 @import "bootstrap";
 
+#img_container {
+    position:relative;
+    display:inline-block;
+    a {
+      position:absolute;
+      top:10px;
+      left:50%;
+      margin-left:-25px;
+    }
+}
+
 h1 {
   font-family: 'Almendra SC', serif;
   small {font-family: 'Fanwood text', serif;}
