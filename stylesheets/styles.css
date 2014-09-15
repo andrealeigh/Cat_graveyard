@@ -7169,7 +7169,7 @@ button.close {
 @media (min-width: 768px) {
   /* line 136, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
-    width: 600px;
+    width: 420px;
     margin: 30px auto;
   }
 
@@ -8033,12 +8033,12 @@ button.close {
     display: none !important;
   }
 }
-/* line 18, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 #img_container {
   position: relative;
   display: inline-block;
 }
-/* line 21, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 #img_container a {
   position: absolute;
   top: 10px;
@@ -8046,41 +8046,41 @@ button.close {
   margin-left: -51.5px;
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 h1 {
   font-family: 'Almendra SC', serif;
 }
-/* line 31, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 h1 small {
   font-family: 'Fanwood text', serif;
 }
-/* line 32, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 h1:first-child {
   margin-top: 200px;
 }
-/* line 33, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 h1:last-child {
   margin-bottom: 200px;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .container-fluid img {
   margin-top: 200px;
 }
-/* line 39, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 .container-fluid img:last-child {
   margin-bottom: 200px;
 }
-/* line 40, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .container-fluid img .pull-left {
   float: left !important;
 }
-/* line 41, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .container-fluid img .pull-right {
   float: right !important;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #linear-gradient1 {
   background-repeat: repeat-x;
   background-image: -webkit-linear-gradient(15deg, black, #00078e);
@@ -8088,7 +8088,7 @@ h1:last-child {
   background-image: linear-gradient(15deg, #000000, #00078e);
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 #linear-gradient2 {
   background-repeat: repeat-x;
   background-image: -webkit-linear-gradient(-15deg, #00078e, black);
@@ -8096,43 +8096,56 @@ h1:last-child {
   background-image: linear-gradient(-15deg, #00078e, #000000);
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .modal {
   top: 5%;
 }
-/* line 55, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .modal.left {
   left: 40%;
 }
-/* line 58, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .modal.right {
   right: 40%;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .modal-content {
   border-radius: 0;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 .modal-footer .btn-default {
   font-family: 'Fanwood text', serif;
   font-size: 20px !important;
   border-radius: 0;
 }
-/* line 71, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .modal-footer .btn-default:hover {
   color: black;
   background-color: white;
   border-color: black;
 }
-
 /* line 79, ../sass/styles.scss */
+.modal-footer p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+}
+/* line 82, ../sass/styles.scss */
+.modal-footer p a {
+  color: #C1272D;
+}
+/* line 84, ../sass/styles.scss */
+.modal-footer p a:hover {
+  color: black;
+}
+
+/* line 91, ../sass/styles.scss */
 .monsters {
   margin: 100px auto 100px auto;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .col-sm-4 p {
   margin-bottom: 30px;
   font-family: 'Alegreya Sans SC', sans-serif;
